@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"mmgr_core.h": "c",
+			"std_types.h": "c",
+			"intctrl.h": "c",
+			"mcu_hw.h": "c",
+			"platform_types.h": "c",
+			"dio.h": "c",
+			"port.h": "c",
+			"timer_cfg.h": "c",
+			"port_cfg.h": "c",
+			"timer.h": "c"
+		}
+	}
+}
