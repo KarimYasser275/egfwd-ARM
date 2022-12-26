@@ -57,7 +57,7 @@ void main
 {
 	while (1)
     {
-        //Superloop
+        //Superloop edit 2222
         Port_Init();
         Gpt_Init();
         Gpt_StartTimer(GPT_16_32_BIT_TIMER0,62500);
