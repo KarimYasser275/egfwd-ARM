@@ -60,6 +60,7 @@ INTCTRL_Tag_t INTCTRL_Tag
 #define NVIC_EN3                               *((volatile uint32*)(CORTEXM4_PERI_BASE_ADDRESS+0x10C))
 #define NVIC_EN4                               *((volatile uint32*)(CORTEXM4_PERI_BASE_ADDRESS+0x110))
 /*NVIC Priority Registers*/
+#define NVIC_PRI0_OFFSET                        CORTEXM4_PERI_BASE_ADDRESS+0x400
 #define NVIC_PRI0                              *((volatile uint32*)(CORTEXM4_PERI_BASE_ADDRESS+0x400))
 #define NVIC_PRI1                              *((volatile uint32*)(CORTEXM4_PERI_BASE_ADDRESS+0x404))
 #define NVIC_PRI2                              *((volatile uint32*)(CORTEXM4_PERI_BASE_ADDRESS+0x408))
